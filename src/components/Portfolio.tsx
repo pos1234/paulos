@@ -23,7 +23,7 @@ const Portfolio = () => {
             <HeadingTexts title="PORTFOLIO" subTitle="Recent Projects" description="My personal Web development experience. Built using latest web development tools." />
             <div className='flex flex-wrap'>
                 <Card imgSrc={image1} imagAlt="Yes" title="YES" languages="Next.js, Typescript, Bootstrap" link="https://yes-next.vercel.app/" />
-                <Card imgSrc={image2} imagAlt="PalmJobs" title="Palm Jobs" languages="Next.js, Tailwind Css, TypeScript, AppWrite" link="https://palmjobs.vercel.app/" />
+                <Card imgSrc={image2} imagAlt="PalmJobs" title="Palm Jobs" languages="Next.js, Tailwind Css, TypeScript, AppWrite" link="https://palmjobs.et/" />
                 <Card imgSrc={image3} imagAlt="Nylos" title="Nylos" languages="React.js, Tailwind Css" link="https://nylos.vercel.app/" />
                 <Card imgSrc={image4} imagAlt="arcBack" title="Arc Back" languages="React.js, Bootstrap" link="https://arc-back.vercel.app/" />
                 <Card imgSrc={image5} imagAlt="selam" title="Nylos" languages="React.js, Tailwind Css" link="https://pos1234.github.io/Project_1/" />
