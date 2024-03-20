@@ -1,5 +1,4 @@
-import React, { useRef, useState } from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
@@ -13,8 +12,7 @@ interface AppProps { }
 const App: React.FC<AppProps> = () => {
   const [menu, setMenu] = useState(false)
   const scrollToComponent = (component: string) => {
-    const element = document.getElementById(component);
-    element?.scrollIntoView({ behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -40,17 +38,10 @@ const App: React.FC<AppProps> = () => {
       <div id='Contact'>
         <Contact />
       </div>
-      <button onClick={() => scrollToComponent('Navigation')} className={menu ? 'hidden' : 'fixed text-whiteText cursor-pointer rounded-full bg-orange text-white right-3 bottom-3 w-12 h-12'}>
+      <button onClick={() => scrollToComponent('Navigation')} className={menu ? 'hidden' : 'fixed z-[10] text-whiteText cursor-pointer rounded-full bg-orange text-white right-3 bottom-3 w-12 h-12'}>
         <ArrowDropUpIcon sx={{ fontSize: "3rem" }} />
       </button>
     </div>
   );
 };
-
-interface NavigationProps {
-  scrollToComponent: (component: string) => void;
-  activeComponent: string;
-}
-
-/* bg-primary text-whiteText
- */export default App;
+export default App;

@@ -39,7 +39,7 @@ const Skills = () => {
                             <ListItems text="Appwrite" />
                         </div>
                         <div className='flex flex-col gap-y-3'>
-                            <ListItems text="Laravel" />
+                            <ListItems text="Strapi" />
                         </div>
                     </div>
                 </Card>
