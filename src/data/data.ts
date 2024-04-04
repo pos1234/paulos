@@ -13,7 +13,7 @@ export const data = [
     imageAlt: "Palm Jobs",
     title: "Palm Jobs",
     languages: "Next.js, Tailwind Css, TypeScript, AppWrite",
-    externalLink: "https://palmjobs.vercel.app/",
+    externalLink: "https://palmjobs.et/",
   },
   {
     id: 3,
