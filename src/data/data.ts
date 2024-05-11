@@ -29,7 +29,7 @@ export const data = [
     imageAlt: "Nylos",
     title: "Nylos",
     languages: "React.js, Tailwind Css",
-    externalLink: "https://nylos.vercel.app/",
+    externalLink: "https://nylos.et/",
   },
   {
     id: 5,
@@ -41,10 +41,18 @@ export const data = [
   },
   {
     id: 6,
+    imageUrl: "Images/nylos-v1.avif",
+    imageAlt: "Nylos",
+    title: "Nylos version 1.0.0",
+    languages: "React.js, Tailwind Css",
+    externalLink: "https://nylos.vercel.app/",
+  },
+  /* {
+    id: 6,
     imageUrl: "Images/arcBack.avif",
     imageAlt: "Arc Back",
     title: "Arc Back",
     languages: "Next.js, Typescript, Bootstrap",
     externalLink: "https://arc-back.vercel.app/",
-  },
+  }, */
 ];

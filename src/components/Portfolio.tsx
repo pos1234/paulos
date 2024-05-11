@@ -3,7 +3,7 @@ import HeadingTexts from './HeadingTexts'
 import {data} from '../data/data'
 const Card = (props: any) => {
     return <div className='flex flex-col w-full sm:w-1/2 md:w-1/3 p-5 hover:p-4'>
-        <a target='_blank' rel="noreferrer" href={props.link}> <img src={props.imgSrc} alt={props.imagAlt} className='cursor-pointer object-cover rounded-lg w-full h-[15rem] max-h-[15rem]' /></a>
+        <a target='_blank' rel="noreferrer" href={props.link}> <img src={props.imgSrc} alt={props.imagAlt} className='cursor-pointer object-fit rounded-lg w-full h-[15rem] max-h-[15rem]' /></a>
         <div className='flex justify-between mt-5 mb-3'>
             <p>{props.title}</p>
             <a target='_blank' rel="noreferrer" className='text-orange' href={props.link}>Live Preview <OpenInNewRoundedIcon sx={{ fontSize: '0.9rem' }} /></a>

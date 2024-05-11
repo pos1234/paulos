@@ -1,8 +1,8 @@
-import myImage from '../Images/my-pic.png'
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TelegramIcon from '@mui/icons-material/Telegram';
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import myImage from '../Images/my-pic.png';
 const Home = ({ scrollToComponent }: any) => {
     const handleDownload = () => {
         const pdfUrl = 'assets/Paulos_Gebeyehu_Resume.pdf';
@@ -29,8 +29,8 @@ const Home = ({ scrollToComponent }: any) => {
             </div>
             <div className='flex flex-col pt-10 gap-y-3 md:w-1/3'>
                 <p className='text-orange text-2xl font-[600]'>INTRODUCTION</p>
-                <p className='text-5xl font-[600]'>Front-End Web, <br /> Developer</p>
-                <p className='flex flex-wrap'>Hi, this is paulos gebeyehu i am a freelance front-end developer and designer. I have solid knowledge and experience in programming and web development.</p>
+                <p className='text-5xl font-[600]'>Software Engineer</p>
+                <p className='flex flex-wrap'>Hi, this is paulos gebeyehu i am a freelance software engineer and designer. I have solid knowledge and experience in programming and web development.</p>
                 <div className='flex flex-wrap justify-between items-center'>
                     <div onClick={() => scrollToComponent('Portfolio')} className='cursor-pointer text-orange'>Learn More <ArrowDownwardIcon sx={{ fontSize: '1.2rem' }} className='-mt-0.5' /></div>
                     <button onClick={handleDownload} className="p-3 w-48 rounded-lg border-2 border-orange text-orange text-center cursor-pointer">
