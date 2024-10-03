@@ -1,9 +1,9 @@
 export const data = [
   {
     id: 1,
-    imageUrl: "Images/Images/Screenshot 2024-10-03 094737.png",
+    imageUrl: "Images/Screenshot 2024-10-03 094737.png",
     imageAlt: "Shega",
-    title: "Shega",
+    title: "Shega Media & Technology Plc",
     languages: "Next.js, Typescript, Tailwind Css, Strapi",
     externalLink: "https://shega.co",
   },
