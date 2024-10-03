@@ -14,7 +14,7 @@ const LinkItems = (props: any) => {
 }
 const Navigation = ({ scrollToComponent, setClose }: any, props: any) => {
     const handleDownload = () => {
-        const pdfUrl = 'assets/Paulos_Gebeyehu_Resume.pdf';
+        const pdfUrl = 'assets/Paulos-Gebeyehu-Tefera-Resume.pdf';
         const link = document.createElement('a');
         link.href = pdfUrl;
         link.download = 'Paulos_Gebeyehu_Resume.pdf';
