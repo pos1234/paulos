@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    imageUrl: "Images/yes.avif",
+    imageUrl: "Images/Images/Screenshot 2024-10-03 094737.png",
     imageAlt: "Shega",
     title: "Shega",
     languages: "Next.js, Typescript, Tailwind Css, Strapi",
@@ -57,7 +57,7 @@ export const data = [
   },
   {
     id: 8,
-    imageUrl: "Images/arcBack.avif",
+    imageUrl: "Images/Screenshot 2024-10-03 100150.png",
     imageAlt: "Lala Cars",
     title: "Lala Cars",
     languages: "Next.js, Typescript, Tailwind Css",
