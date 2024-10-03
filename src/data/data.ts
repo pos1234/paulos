@@ -2,10 +2,10 @@ export const data = [
   {
     id: 1,
     imageUrl: "Images/yes.avif",
-    imageAlt: "YES",
-    title: "YES",
-    languages: "Next.js, Typescript, Bootstrap",
-    externalLink: "https://yes-next.vercel.app/",
+    imageAlt: "Shega",
+    title: "Shega",
+    languages: "Next.js, Typescript, Tailwind Css, Strapi",
+    externalLink: "https://shega.co",
   },
   {
     id: 2,
@@ -25,6 +25,14 @@ export const data = [
   },
   {
     id: 4,
+    imageUrl: "Images/yes.avif",
+    imageAlt: "YES",
+    title: "YES",
+    languages: "Next.js, Typescript, Bootstrap",
+    externalLink: "https://yes-next.vercel.app/",
+  },
+  {
+    id: 5,
     imageUrl: "Images/nylos.avif",
     imageAlt: "Nylos",
     title: "Nylos",
@@ -32,7 +40,7 @@ export const data = [
     externalLink: "https://nylos.et/",
   },
   {
-    id: 5,
+    id: 6,
     imageUrl: "Images/placetobe.avif",
     imageAlt: "Place to be Ethiopia",
     title: "Place to be Ethiopia",
@@ -40,19 +48,27 @@ export const data = [
     externalLink: "https://www.placetobeethiopia.com/",
   },
   {
-    id: 6,
+    id: 7,
     imageUrl: "Images/nylos-v1.avif",
     imageAlt: "Nylos",
     title: "Nylos version 1.0.0",
     languages: "React.js, Tailwind Css",
     externalLink: "https://nylos.vercel.app/",
   },
-  /* {
-    id: 6,
+  {
+    id: 8,
+    imageUrl: "Images/arcBack.avif",
+    imageAlt: "Lala Cars",
+    title: "Lala Cars",
+    languages: "Next.js, Typescript, Tailwind Css",
+    externalLink: "https://lala-platform-fe.vercel.app/",
+  },
+  {
+    id: 9,
     imageUrl: "Images/arcBack.avif",
     imageAlt: "Arc Back",
     title: "Arc Back",
     languages: "Next.js, Typescript, Bootstrap",
     externalLink: "https://arc-back.vercel.app/",
-  }, */
+  },
 ];
